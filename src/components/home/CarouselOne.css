@@ -1,0 +1,151 @@
+.container {
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.owl-theme .item {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: #fff;
+    position: relative;
+}
+
+.card {
+    width: 100%;
+    border: none;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 25px 20px 20px;
+    position: relative;
+}
+
+/* Price Button Styling */
+.btn.bg-danger {
+    position: absolute;
+    top: -18px;
+    left: 20px;
+    padding: 8px 16px;
+    font-weight: 500;
+    border-radius: 4px;
+    background-color: #e43c3c !important;
+    box-shadow: 0 2px 4px rgba(228, 60, 60, 0.2);
+    border: none;
+}
+
+/* Car Name Styling */
+.card-body p.fs-4 {
+    margin: 15px 0 8px 0;
+    font-weight: 700;
+    color: #333;
+    font-size: 1.4rem !important;
+}
+
+/* Red Line Styling */
+.card-body div[style*="backgroundColor"] {
+    margin: 0 0 15px 0;
+    background-color: #e43c3c !important;
+}
+
+/* Check Icons and Text Styling */
+.check-items {
+    margin-top: 12px;
+}
+
+.check-items div {
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.check-items i.bi-check {
+    color: #e43c3c;
+    font-size: 1.1rem;
+    margin-right: 10px;
+}
+
+.check-items span.fs-5 {
+    color: #555;
+    font-size: 1rem !important;
+    font-weight: 400;
+}
+
+/* Navigation Arrows */
+.owl-nav {
+    position: absolute;
+    top: -60px;
+    z-index: 1000;
+    margin-left: 90%;
+  }
+  
+  #carousel1 + .owl-nav {
+    left: 180px;
+  }
+  
+  
+  .owl-nav button {
+    border: none;
+    color: rgb(24, 23, 23) !important;
+    padding: 0;
+    margin-left: 50px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .owl-prev {
+    left: -50px;
+    font-weight: bolder!important;
+    font-size: 50px !important;
+  }
+  
+  .owl-next {
+    right: -50px;
+    font-weight: bolder !important;
+    font-size: 50px !important;
+  }
+  
+  .owl-nav button:hover {
+    color: red !important;
+  }
+/* Dots Navigation */
+.owl-dots {
+    text-align: center !important;
+    padding-top: 15px !important;
+  }
+  .owl-dots button.owl-dot {
+    width: 15px !important;
+    height: 15px !important;
+    border-radius: 50% !important;
+    display: inline-block;
+    background: #f6f1f1 !important;
+    margin: 0 3px !important;
+  }
+  .owl-dots button.owl-dot.active {
+    background-color: #ef6c6c00 !important;
+  }
+  .owl-dots button.owl-dot:focus {
+    outline: none !important;
+  }
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .card {
+        margin: 0 5px;
+    }
+    
+    .owl-nav button {
+        width: 35px;
+        height: 35px;
+    }
+}

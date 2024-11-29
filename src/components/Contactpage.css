@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.rulerz{
+    border: 1px solid red;
+    width: 40px;
+    border-radius: 10px;
+}
+.ruler{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 991px) { /* For md and smaller screens */
+    .about-us {
+        padding-left: 0;
+    }
+}
+
+/* For small screens (max-width: 576px) */
+@media (max-width: 576px) {
+    .let {
+      font-size: smaller; /* Adjust font size for h2 on small screens */
+      padding-top: 5px;
+    }
+  }
+  
+  /* For medium screens (max-width: 768px) */
+  @media (max-width: 768px) {
+    .let {
+      font-size: smaller; /* Adjust font size for h2 on medium screens */
+      padding-top: 5px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .letz {
+      font-size: xx-small; /* Adjust font size for h2 on medium screens */
+      padding: 4px;
+    }
+  }
+  @media (max-width: 576px) {
+    .letz {
+      font-size: xx-small; /* Adjust font size for h2 on small screens */
+      padding: 4px;
+    }
+  }

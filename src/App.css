@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.section-1 {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.section-1 .container {
+  padding: 20px;
+  border-radius: 10px;
+}
+.title-line{
+  border: 1 solid red;
+  width: 40px;
+  border-radius: 10px;
+}
+.line{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.emoji{
+  border: 1px solid red;
+  padding: 10px;
+  border-radius: 5px;
+}
+nav ul li a:hover{
+  background-color: red;
+  
+}
+.btn-danger {
+  background-color: #e04a4a;
+  border: none;
+}
+.nav-link:hover {
+background: linear-gradient(to bottom, #ff0000, #cc0000);
+padding: 8px 12px; /* Add some padding for a better hover effect */
+color: white;
+border-radius: 5px;
+transition: background-color 0.3s;
+}
+.nav-link.active {
+color: rgb(248, 248, 173) !important;
+font-weight: bold;
+}
+.firstpic{
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  margin-top: -20px;
+}
+.title-line{
+  border: 1px solid red;
+  width: 70px;
+  border-radius: 10px;
+}
+.line{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dot{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.nav-link:hover {
+  background: linear-gradient(to bottom, #ff0000, #cc0000);
+  padding: 8px 12px; /* Add some padding for a better hover effect */
+  color: white;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+.nav-link.active {
+  color:  rgb(248, 248, 173) !important;
+  font-weight: bold;
+}
+@media (max-width: 576px) {
+  .start {
+    padding-top: 80px;
+  }
+}
+.rulerz{
+  border: 3px solid red;
+  width: 70px;
+  border-radius: 10px;
+}
+.ruler{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
