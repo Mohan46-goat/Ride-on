@@ -8,7 +8,7 @@ export const Aboutsec4 = () => {
         <div className="row">
           <div className="col-lg-6">
             <h4>How We Work</h4>
-            <div className="dot mt-2 mb-3">
+            <div className="dot mt-2 my-5">
               <div className="title-line"></div>
             </div >
             <div className='large'>

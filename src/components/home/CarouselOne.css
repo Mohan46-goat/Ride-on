@@ -87,56 +87,60 @@ img {
     top: -60px;
     z-index: 1000;
     margin-left: 90%;
-  }
-  
-  #carousel1 + .owl-nav {
+}
+
+#carousel1 + .owl-nav {
     left: 180px;
-  }
-  
-  
-  .owl-nav button {
+}
+
+.owl-nav button {
     border: none;
     color: rgb(24, 23, 23) !important;
     padding: 0;
     margin-left: 50px;
     cursor: pointer;
     border-radius: 5px;
-  }
-  
-  .owl-prev {
+    background: transparent !important; /* Set background to transparent */
+}
+
+.owl-prev {
     left: -50px;
     font-weight: bolder!important;
     font-size: 50px !important;
-  }
-  
-  .owl-next {
+}
+
+.owl-next {
     right: -50px;
     font-weight: bolder !important;
     font-size: 50px !important;
-  }
-  
-  .owl-nav button:hover {
+}
+
+.owl-nav button:hover {
     color: red !important;
-  }
+}
+
 /* Dots Navigation */
 .owl-dots {
     text-align: center !important;
     padding-top: 15px !important;
-  }
-  .owl-dots button.owl-dot {
+}
+
+.owl-dots button.owl-dot {
     width: 15px !important;
     height: 15px !important;
     border-radius: 50% !important;
     display: inline-block;
     background: #f6f1f1 !important;
     margin: 0 3px !important;
-  }
-  .owl-dots button.owl-dot.active {
+}
+
+.owl-dots button.owl-dot.active {
     background-color: #ef6c6c00 !important;
-  }
-  .owl-dots button.owl-dot:focus {
+}
+
+.owl-dots button.owl-dot:focus {
     outline: none !important;
-  }
+}
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
